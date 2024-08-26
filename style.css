@@ -6,3 +6,59 @@
 }
 
 
+/* header */ 
+
+header{
+    background-color: beige;
+    box-shadow: 3px 3px 5px lightslategray;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    
+
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+
+.logo a {
+    background-color: lightslategray;
+    color: beige;
+    font-size: 40px;
+    padding: 5px 10px;
+    font-weight: 900;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.logo a:hover {
+    color: lightslategray;
+    background-color: beige;
+    box-shadow: 3px 3px 5px lightslategray;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation a{
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    transform: translateY(-5px);
+}
+
